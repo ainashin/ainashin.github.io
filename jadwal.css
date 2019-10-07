@@ -1,0 +1,42 @@
+body {
+    background-image: url("screen-shot-2019-02-06-at-2.26.52-pm.jpg");
+    font-family: "segoe ui";
+}
+
+div {
+    background-color: #527a7a;
+    margin : 50px;
+    padding :32px;
+    margin-top: 120px;
+        
+    border-radius: 7%;
+}
+
+
+/*halaman gambar*/
+
+table {
+    border-collapse: collapse;
+    margin : auto;     
+}
+
+th,td{
+    padding : 15px 15px;
+}
+
+tbody tr:{
+    background-color: #5c8a8a
+}
+
+table td {
+/*    border : 1px solid black;*/
+    
+}
+thead tr {
+    background-color: dimgray;
+    color: white;
+}
+
+tbody tr:hover{
+    background-color: #5c8a8a;
+}

@@ -1,0 +1,204 @@
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .wrapper {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .wrapper, nav, article, aside, section,footer {
+    width: 100%;
+  }
+}
+
+
+.wrapper {
+		width: 980px;
+		margin:0 auto;
+		/*background-color: #002233;*/
+		position: relative;
+}
+img {
+/*    menengahkan gambar*/
+    width: 240px;
+    display: block;
+    margin: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    
+/*   membulatkan gambar */
+    border-radius: 25%;
+}
+
+h1{
+/*    menengahkan tulisan*/
+    text-align: center;
+    font-size: 5vw;
+    border-bottom-style: dotted;
+}
+
+body {
+    background-image: url("screen-shot-2019-02-06-at-2.26.52-pm.jpg");
+    font-family: "segoe ui";
+}
+
+h3{
+	color : black;
+}
+
+li{
+	color :black;
+}
+
+pre{
+	color:black;
+}
+
+
+/*halaman gambar*/
+
+table {
+    border-collapse: collapse;
+    margin : auto;     
+}
+
+th,td{
+    padding : 15px 15px;
+}
+
+tbody tr:{
+    background-color: #5c8a8a
+}
+
+table td {
+    border : 1px solid black;
+    
+}
+thead tr {
+    background-color: dimgray;
+    color: white;
+}
+
+tbody tr:hover{
+    background-color: #5c8a8a;
+}
+
+/* Style the header */
+header {
+		padding: 50px;
+		text-align: center;
+		background-color:  #666;
+	}
+
+header h1 {
+        font-family: "Open Sans";
+        color: white;
+        font-size: 50px;
+    }
+
+
+pre{
+    font-family: sans-serif;
+    color: black;
+    
+}
+iframe{
+    width: auto;
+    height: auto;
+    float: right;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    clear: both;
+    color: #ffffff;
+    background-color:#ccc;
+    padding: 15px;
+    display: block;
+    text-align: left;
+
+}
+
+nav a{
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+}
+
+nav a:hover{
+    color: white;
+    background-color: rosybrown;
+    border-radius: 2px;
+}
+/* Style the list inside the menu */
+aside {
+		width: 317px;
+		height: 200%;
+		float: left;
+		padding: 15px 15px 15px 15px;
+		background-color: #75a3a3;
+		color: #ffffff;
+	}
+
+aside img {
+		width: 40px;
+		height: 40px;
+}
+
+article {
+		float: left;
+		width: 600px;
+        height: 200%;
+        padding: 15px 15px 15px 15px;
+		border-right: 2px solid #eeeeee;
+		color : black;
+		background-color: #b3cccc;
+	}
+  
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+ display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+		clear: both;
+		background: #666;
+		padding: 10px;
+		text-align: center;
+	}
+
+hgroup {
+		margin-top: 10px;
+		border-bottom: 2px solid #0080ff;
+			}
+figure {
+		float: left;
+		background-image: url("abu.png");
+		background-position: left;
+		box-shadow: 6px 6px 3px #000;
+		width: 140px;
+		height: 300px;
+		margin: 6px 6px 6px 6px; 
+		padding: 6px;
+		border: 1px solid #0080ff;
+			}
+
+figure img {
+		position: center;
+		padding: 5px;
+		padding-left: 13px;
+        width: 100px;
+        border-radius: 0px
+	}

@@ -1,0 +1,95 @@
+<DOCTYPE html>
+
+
+
+
+<html>
+
+<body>
+
+<h2>Input data mata kuliah</h2>
+
+    <script type="text/javascript">
+        function validate(){
+        obj = document.form1;
+        kode_mk = obj.kode_mk.value;
+        matkul = obj.matkul.value;
+        sks = obj.sks.selectedIndex;
+        smt = obj.smt.seletedIndex;
+        submitOK="True";
+        
+        if (kode_mk==""){
+            alert("Kode mata kuliah harus diisi!")
+            obj.kode_mk.focus()
+            return false;
+        }
+        if (matkul == ""){
+            alert("Nama mata kuliah harus diisi!")
+            obj.matkul.focus()
+            return false;
+        }
+        if (sks == ""){
+            alert("sks harus diisi!")
+            obj.sks.focus
+            return false;
+        }
+        if (smt == ""){
+            alert ("Semester harus diisi!")
+            obj.smt.focus()
+            return false;
+        }
+        if (submitOK=="False"){
+            return false;
+        }
+       } 
+</script>
+
+<form name=form1 method=post action=# onsubmit="return validate()">
+<p>
+    Kode Mata Kuliah
+    <br>
+    <input type=text name=kode_mk size=50 maxlength=9>
+    <br>
+    Mata Kuliah
+    <br>
+    <input type=text name=matkul size=50 maxlength=60>
+    <br>
+    SKS
+    <br>
+    <select size=1 name=sks>
+        <option selected="Pilih sks">Pilih SKS</option>
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+    </select>
+    <br>
+    Semester
+    <br>
+    <select size=1 name=smt>
+         <option selected="Pilih Semester">Pilih Semester</option>
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+    </select>
+    <br>
+    <br>
+    <input type=submit value=Proses>
+    <input type=reset value=Clear>
+    <br><br>
+    
+    </p>
+</form>
+</body>
+</html>
+    </DOCTYPE>
